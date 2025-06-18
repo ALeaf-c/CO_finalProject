@@ -1,0 +1,2 @@
+./build/X86/gem5.opt configs/example/se.py -c ../share/benchmark/quicksort --cpu-type=TimingSimpleCPU --caches --l2cache --l3cache --l2_size=128kB --l3_size=512kB --mem-type=NVMainMemory --nvmain-config=../NVmain/Config/PCM_ISSCC_2012_4GB.config > /home/vboxuser/share/Q4/origin_nvmain_log.txt
+
